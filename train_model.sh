@@ -6,7 +6,7 @@
 # Run the training script
 python3 src/train.py \
     --data_dir "Cataract-1k-Phase" \
-    --epochs 20 \
+    --epochs 12 \
     --batch_size 32 \
     --learning_rate 0.001 \
     --output_dir "checkpoints"

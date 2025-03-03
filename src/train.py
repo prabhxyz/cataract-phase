@@ -86,6 +86,8 @@ def main():
         transform=None,        # or pass your own transformations
         frame_skip=args.frame_skip
     )
+    print(f"Found {len(train_dataset)} total samples.")
+    
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=4)
 
     # In many real workflows, you'd have a separate validation set or

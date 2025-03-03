@@ -5,7 +5,7 @@
 
 # Run the training script
 python3 src/train.py \
-    --data_dir "data/Cataract-1k-Phase" \
+    --data_dir "Cataract-1k-Phase" \
     --epochs 10 \
     --batch_size 32 \
     --learning_rate 0.001 \

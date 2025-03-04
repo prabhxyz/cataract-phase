@@ -9,4 +9,4 @@ python3 src/train.py \
     --epochs 12 \
     --batch_size 32 \
     --learning_rate 0.001 \
-    --output_dir "checkpoints"
+    --output_dir "output"
